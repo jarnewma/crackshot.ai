@@ -79,7 +79,7 @@ const handlePricingPlan = (plan) => {
           <Box sx={styles.buttonGroupInner}>
             <Button
             className={state.active === 'monthly' ? 'active' : ''}
-            type="B"
+            type="button"
             aria-label="Monthly"
             onClick={() => handlePricingPlan('monthly')}
             >
@@ -104,8 +104,7 @@ const handlePricingPlan = (plan) => {
             ))}
           </Carousel>
         </Box>
-        <Box>
-        </Box>
+        
       </Container>
     </section>
   );
