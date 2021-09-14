@@ -78,15 +78,35 @@ const handlePricingPlan = (plan) => {
         />
         <Flex sx={styles.ButtonGroup}>
           <Box sx={styles.buttonGroupInner}>
-            <button
+            <Button
             className={state.active === 'monthly' ? 'active' : ''}
-            type="button"
-            aria-label
+            type="B"
+            aria-label="Monthly"
+            onClick={() => handlePricingPlan('monthly')}
             >
-
-            </button>
+              Monthly Plan
+            </Button>
+            <Button
+            className={state.active === 'annual' ? 'active' : ''}
+            type="button"
+            aria-label="Annual"
+            onClick={() => handlePricingPlan('annual')}
+            >
+              Annual Plan
+            </Button>
           </Box>
         </Flex>
+        <Box sx={styles.pricingWrapper} className="pricing__wrapper">
+          <Carousel { ...sliderParams}>
+            {state.pricingPlan.map((packageData) => (
+              <Box sx={styles.pricingItem} key={packageData.id}>
+                <PriceCard data={packageData} />
+              </Box>
+            ))}
+          </Carousel>
+        </Box>
+        <Box>
+        </Box>
       </Container>
     </section>
   );
