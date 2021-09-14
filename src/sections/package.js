@@ -8,7 +8,6 @@ import ButtonGroup from 'components/button-group';
 import SectionHeader from 'components/section-header';
 
 import packages from "data/package"
-import style from "style/package"
 import styles from 'style/banner';
 import { Button } from '@theme-ui/components';
 
