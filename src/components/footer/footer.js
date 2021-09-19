@@ -3,7 +3,7 @@ import { jsx, Box, Container, Image, Text } from 'theme-ui';
 import { Link } from 'components/link';
 import data from './footer.data';
 import styles from 'style/footer'
-import FooterLogo from 'assets/logo.svg';
+import FooterLogo from 'assets/logo.png';
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
           <Link path="/">
             <Image src={FooterLogo} alt="Logo" />
           </Link>
-          <Box sx={styles.footer.menus}>
+          {/* <Box sx={styles.footer.menus}>
             <nav>
               {data.menuItem.map((item, i) => (
                 <Link 
@@ -24,7 +24,7 @@ export default function Footer() {
                 />
               ))}
             </nav>
-          </Box>
+          </Box> */}
           <Text sx={styles.footer.copyright}>
             Copyright© {new Date().getFullYear()} Crackshot 
           </Text>

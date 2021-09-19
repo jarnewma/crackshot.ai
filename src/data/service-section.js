@@ -3,23 +3,23 @@ import Secure from "assets/services/secure.svg";
 
 const data = {
     subTitle: "our services",
-    title: "Business Goals Achieved with Design",
+    title: "AI Solutions for Infrastructure Maintenance",
     features: [
       {
         id: 1,
         imgSrc: Smart,
-        altText: "Smart Features",
-        title: "Smart Features",
+        altText: "",
+        title: "",
         text:
-          "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+          "Our Computer Vision technology delivers incredibly accurate data so that roadways can be assessed and estimated for repair with never before seen precision. ",
       },
       {
         id: 2,
         imgSrc: Secure,
-        altText: "Secure Contents",
-        title: "Secure Contents",
+        altText: "Automated Analysis",
+        title: "Automated Analysis",
         text:
-          "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+          "Our automated process for identification and analysis of roadway distresses makes the legwork for repair easier than ever!",
       },
     ],
   };
