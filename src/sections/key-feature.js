@@ -13,8 +13,8 @@ export default function KeyFeature() {
     <section sx={{ variant: "section.keyFeature" }} id="feature">
       <Container>
         <SectionHeader
-          slogan="What's the function"
-          title="Meet the feature of our product"
+          slogan="A better way to handle road maintenance"
+          title="Streamlined process for roadway assessment and estimation "
         />
         <Grid sx={styles.grid}>
           {data.map((item) => (

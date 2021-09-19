@@ -6,35 +6,35 @@ import Support from "assets/key-feature/support.svg";
 const data = [
     {
       id: 1,
-      imgSrc: Performance,
-      altText: "Fast Performance",
-      title: "Fast Performance",
+      imgSrc: Partnership,
+      altText: "Accurate Results",
+      title: "Accurate Results",
       text:
-        "Get your blood tests delivered at home collect a sample from the your blood tests.",
+        "Our highly accurate technology provides the precision data you need for assessments. ",
     },
     {
       id: 2,
-      imgSrc: Partnership,
-      altText: "Partnership deal",
-      title: "Partnership deal",
+      imgSrc: Performance,
+      altText: "Save Time",
+      title: "Save Time",
       text:
-        "Get your blood tests delivered at home collect a sample from the your blood tests.",
+        "Reduce assessment and estimation time with our automated process. ",
     },
     {
       id: 3,
       imgSrc: Subscription,
-      altText: "Pro Subscription",
-      title: "Pro Subscription",
+      altText: "Eliminate Guesswork",
+      title: "Eliminate Guesswork",
       text:
-        "Get your blood tests delivered at home collect a sample from the your blood tests.",
+        "Our AI gives you a completely objective assessment by taking out any potential human error. ",
     },
     {
       id: 4,
       imgSrc: Support,
-      altText: "Customer Support",
-      title: "Customer Support",
+      altText: "Quick Analysis",
+      title: "Quick Analysis",
       text:
-        "Get your blood tests delivered at home collect a sample from the your blood tests.",
+        "Get your data quickly and reduce turnaround on assessments and estimation. ",
     },
   ];
 

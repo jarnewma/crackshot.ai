@@ -1,8 +1,8 @@
 const data = {
-    subTitle: 'Core features',
-    title: 'Smart Jackpots that you may love this anytime & anywhere',
+    subTitle: 'What We Do',
+    title: 'Smart Infrastructure Solutions',
     description:
-      'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.',
+      'We use Computer Vision technology to analyze damage in road surfaces. Our process optimizes that data into precise measurements and costs to save governments and businesses time and money.   ',
     btnName: 'Get Started',
     btnURL: '#',
   };

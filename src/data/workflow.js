@@ -1,27 +1,26 @@
 const data = [
     {
       id: 1,
-      title: 'Set disbursement Instructions',
+      title: 'Identify',
       text:
-        'Get your blood tests delivered at home collect a sample from the your blood tests.',
+        'Detect roadway damage with only a camera',
     },
     {
       id: 2,
-      title: 'Assembly retrieves funds from your account',
+      title: 'Classify',
       text:
-        'Get your blood tests delivered at home collect a sample from the your blood tests.',
+        'Determine the type of distress',
     },
     {
       id: 3,
-      title: 'Assembly initiates disbursement',
+      title: 'Measure',
       text:
-        'Get your blood tests delivered at home collect a sample from the your blood tests.',
+        'Calculate the amount and cost of material',
     },
     {
       id: 4,
-      title: 'Customer receives funds payment',
-      text:
-        'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      title: 'Repair',
+      text: 'Make repairs with unparalled accuracy',
     },
   ];
 
