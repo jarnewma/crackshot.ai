@@ -16,7 +16,7 @@ import ModalVideo from "react-modal-video";
 import { IoIosPlay, IoMdHeartEmpty } from "react-icons/io";
 import data from "data/service-section"
 import styles from "style/service-section"
-import ServiceThumb from "assets/service-thumb.png";
+import ServiceThumb from "assets/pylon.jpeg";
 import shapePattern from "assets/shape-pattern1.png";
 
 
@@ -30,7 +30,7 @@ export default function ServiceSection() {
   };
 
   return (
-    <section sx={{ variant: "section.services" }}>
+    <section sx={{ variant: "section.services" }} id="services">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
@@ -69,7 +69,7 @@ export default function ServiceSection() {
       <ModalVideo 
       channel="youtube"
       isOpen={videoOpen}
-      videoId="lkOTNVKMLSQ"
+      videoId="QTgLbjKcdQI"
       onClose={() => setVideoOpen(false)}
       />
     </section>

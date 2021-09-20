@@ -22,12 +22,12 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <ServiceSection />
-          <Feature />
+          {/* <Feature /> */}
           <CoreFeature />
           <WorkFlow />
-          <Package />
+          {/* <Package />
           <TeamSection />
-          <TestimonialCard />
+          <TestimonialCard /> */}
         </Layout>
     </ThemeProvider>
   );

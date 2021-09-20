@@ -7,11 +7,11 @@ import styles from 'style/workflow'
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <section sx={styles.workflow} id='workflow'>
       <Container>
         <SectionHeader
-        slogan="Placeholder"
-        title="Fancy title"
+        slogan=""
+        title="Our Process"
         isWhite={true}
         />
         <Grid sx={styles.grid}>
