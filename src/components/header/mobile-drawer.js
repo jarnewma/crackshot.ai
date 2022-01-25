@@ -12,24 +12,24 @@ import {
 } from "react-icons/fa";
 import menuItems from "./header.data";
 
-const social = [
-  {
-    path: "/",
-    icon: <FaFacebookF />,
-  },
-  {
-    path: "/",
-    icon: <FaTwitter />,
-  },
-  {
-    path: "/",
-    icon: <FaGithubAlt />,
-  },
-  {
-    path: "/",
-    icon: <FaDribbble />,
-  },
-];
+// const social = [
+//   {
+//     path: "/",
+//     icon: <FaFacebookF />,
+//   },
+//   {
+//     path: "/",
+//     icon: <FaTwitter />,
+//   },
+//   {
+//     path: "/",
+//     icon: <FaGithubAlt />,
+//   },
+//   {
+//     path: "/",
+//     icon: <FaDribbble />,
+//   },
+// ];
 
 export default function MobileDrawer() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
